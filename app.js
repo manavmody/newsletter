@@ -49,6 +49,8 @@ const subscribingUser = {
 app.get("/" , function(req, res){
    res.sendFile(__dirname+"/signup.html");
 });
+
+//for failure
 app.post("/failure" , function(req ,res){
     res.redirect("/");
 })
