@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended: true}));
 app.post("/" , function(req , res){
 
   mailchimp.setConfig({
-  apiKey: "b58baff6bb55d42b61156fb841d6e9a3-us20",
+  apiKey: "insert_apikey here",
   server: "us20",
 })
 
@@ -50,7 +50,7 @@ app.get("/" , function(req, res){
    res.sendFile(__dirname+"/signup.html");
 });
 
-//for failure
+
 app.post("/failure" , function(req ,res){
     res.redirect("/");
 })
@@ -60,5 +60,5 @@ app.listen(process.env.PORT, function(){
     console.log("server is running on port 3000");
 })
 
-//apikey
-//b58baff6bb55d42b61156fb841d6e9a3-us20
+
+
