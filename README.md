@@ -1,6 +1,6 @@
 # newsletter
 
-This is a newsletter signup website which was made using Mailchimp API key.
+This is a newsletter signup website which was made using Mailchimp API key. Postman was also used to implement this.
 
 The user will be asked for First Name,Last Name and email ID.
 
